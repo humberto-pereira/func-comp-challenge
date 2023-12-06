@@ -1,15 +1,6 @@
 import React from 'react'
 import css from './css/Sidebar.module.css'
 
-const Navbar = () => {
-    return (
-    <div className={css.NavBarSimple}>
-        <h1>My Gallery</h1>
-        <span>Hello, guest</span>
-        <button>log in</button>
-    </div>
-    )
-}
 
 const Sidebar = () => {
     return (
@@ -21,4 +12,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar, Navbar;
+export default Sidebar;
